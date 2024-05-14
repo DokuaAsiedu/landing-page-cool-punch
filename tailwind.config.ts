@@ -8,11 +8,16 @@ const config: Config = {
     "./layouts/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'brandy-punch': '#CC7F2E',
+        'onyx': '#121212'
+      }
+    },
     container: {
       center: true,
       padding: {
-        DEFAULT: "1rem",
+        'DEFAULT': "1rem",
       },
     },
   },
