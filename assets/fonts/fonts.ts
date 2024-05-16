@@ -1,3 +1,3 @@
-import { Oswald } from "next/font/google"
+import { Oswald } from "next/font/google";
 
-export const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" })
+export const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });

@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   @apply bg-onyx text-white;
+} */
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  .flex > *,
+  .grid > * {
+    @apply min-w-0;
+  }
+}
+
+@layer utilities {
+  #def-layout {
+    @apply w-full min-w-[280px];
+  }
 }

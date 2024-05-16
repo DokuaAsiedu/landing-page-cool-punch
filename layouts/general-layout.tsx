@@ -1,5 +1,5 @@
-import { Navbar } from "@/components"
-import { oswald } from "@/assets/fonts/fonts"
+import { Navbar } from "@/components";
+import { oswald } from "@/assets/fonts/fonts";
 
 export function GeneralLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -8,5 +8,5 @@ export function GeneralLayout({ children }: { children: React.ReactNode }) {
 
       {children}
     </div>
-  )
+  );
 }
