@@ -610,7 +610,7 @@ export default function Zwilt() {
                   <Image src={navYellow} alt="nav" />
                 </div>
 
-                <p className="text-sm text-santa-grey">
+                <p className="lg:w-3/5 text-sm text-santa-grey">
                   We take complex hiring processes - and simplify them.
                   Connecting you to the world’s highly qualified talent pool.
                 </p>
