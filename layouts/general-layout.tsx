@@ -1,9 +1,13 @@
-import { Navbar } from "@/components";
-import { oswald } from "@/assets/fonts/fonts";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(
+  () => import("@/components/navbar").then(({ Navbar }) => Navbar),
+  { ssr: false },
+);
 
 export function GeneralLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className={`${oswald.className} container relative`} id="gen-layout">
+    <div className={`pt-2 flex flex-col items-stretch`} id="def-layout">
       <Navbar />
 
       {children}
