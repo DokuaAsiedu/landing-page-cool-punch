@@ -15,7 +15,14 @@ import devStack from "@/assets/images/dev-stack.gif";
 import jason from "@/assets/images/jason.png";
 import Image from "next/image";
 
-import { JOB_CATEGORY, INTERVIEW_STEPS, PROCESS_STEPS, WHY_CHOOSE_ZWILT, FAQS, QUICK_LINKS } from "@/utils/info";
+import {
+  JOB_CATEGORY,
+  INTERVIEW_STEPS,
+  PROCESS_STEPS,
+  WHY_CHOOSE_ZWILT,
+  FAQS,
+  QUICK_LINKS,
+} from "@/utils/info";
 
 export default function Zwilt() {
   const [jobCat, setJobCat] = useState("it");
