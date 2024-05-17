@@ -602,7 +602,7 @@ export default function Zwilt() {
             </div>
           </div>
 
-          <div className="grid gap-4">
+          <div className="grid lg:grid-cols-[4fr,6fr] gap-4">
             <div className="grid gap-8">
               <div className="grid gap-4">
                 <div className="flex gap-2">
@@ -638,7 +638,7 @@ export default function Zwilt() {
                 Connecting the right people to the right businesses.
               </h4>
 
-              <div className="grid grid-cols-[repeat(4,max-content)] gap-6 overflow-x-auto">
+              <div className="grid grid-cols-[repeat(4,max-content)] justify-between gap-6 overflow-x-auto">
                 {QUICK_LINKS.map((item, index) => (
                   <div key={`item-${index}`} className="flex flex-col gap-4">
                     <h6 className="uppercase text-storm-grey text-sm">
